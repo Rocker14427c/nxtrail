@@ -46,6 +46,6 @@ jobs:
         with:
           name: nxtrail-apk
           path: |
-            build/nxtrail-*.apk
-            build/nxtrail-*.apk.sha256
+            build/nxtrail-2.1.81-255.apk
+            build/nxtrail-2.1.81-255.apk.sha256
           if-no-files-found: error
