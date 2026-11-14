@@ -1,0 +1,173 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+<title>Booking Details · Custom Demo</title>
+<style>
+  * { box-sizing:border-box; }
+  body { margin:0; font-family: Roboto, "Segoe UI", Arial, sans-serif; background:#eceef4; color:#20242c; }
+  .header { background:linear-gradient(135deg,#0d74e8,#2196f3); color:#fff; padding:16px 18px; display:flex; align-items:center; gap:14px; }
+  .back { width:36px; height:36px; border-radius:50%; border:2px solid rgba(255,255,255,.85); display:flex; align-items:center; justify-content:center; font-size:22px; }
+  .header h1 { margin:0; font-size:20px; font-weight:600; }
+  .greeting { padding:12px 18px 8px; color:#5c6675; font-size:14px; display:flex; justify-content:space-between; gap:8px; align-items:center; }
+  .new-tag { display:inline-block; border:2px solid #1565c0; color:#0d5fb8; background:#fff; border-radius:999px; padding:3px 12px; font-size:10px; font-weight:800; letter-spacing:1.3px;  white-space:nowrap; }
+  .sheet { margin:10px 12px 28px; background:#fff; border-radius:18px; overflow:hidden; box-shadow:0 4px 18px rgba(20,40,80,.12); }
+  .countdown { position:relative; background:#262634; color:#fff; padding:20px 18px 16px; text-align:center; overflow:hidden; }
+  .countdown .side { position:absolute; top:14px; bottom:14px; width:26px; writing-mode:vertical-rl; transform:rotate(180deg); font-size:10px; letter-spacing:2px; color:rgba(255,255,255,.55); text-transform:uppercase; }
+  .countdown .side.left { left:8px; }
+  .countdown .side.right { right:8px; }
+  .countdown h2 { margin:6px 34px 10px; font-size:17px; font-weight:600; }
+  .timer { font-size:46px; font-weight:800; color:#ff3b30; letter-spacing:2px; margin:2px 0 10px; font-variant-numeric:tabular-nums; }
+  .booking-time { font-size:12px; color:#c9cfdb; margin-bottom:10px; }
+  .nontransfer { font-size:13px; color:#e8ebf2; }
+  .progress { height:5px; background:#4a4a5c; border-radius:3px; margin:14px 34px 0; overflow:hidden; }
+  .progress > div { height:100%; width:100%; background:linear-gradient(90deg,#7c6cff,#b39dff); transition:width 1s linear; }
+  .meta { padding:14px 16px 8px; border-bottom:1px dashed #d8dee9; }
+  .meta .row { display:flex; align-items:center; justify-content:space-between; gap:10px; }
+  .ticket-id { font-size:14px; font-weight:700; color:#1a2b45; }
+  .active { display:inline-flex; align-items:center; gap:5px; background:#e6f4ea; color:#137333; border-radius:999px; padding:4px 11px; font-size:11px; font-weight:700; }
+  .active:before { content:''; width:7px; height:7px; border-radius:50%; background:#137333; }
+  .stations { display:flex; justify-content:space-between; margin-top:10px; font-size:11px; color:#7a8798; text-transform:uppercase; letter-spacing:.5px; }
+  .grid { padding:8px 16px 16px; display:grid; grid-template-columns:1fr 1fr; gap:0 18px; border-bottom:1px dashed #d8dee9; }
+  .cell { padding:10px 0; }
+  .cell .k { font-size:11px; color:#8a94a6; text-transform:uppercase; letter-spacing:.4px; }
+  .cell .v { font-size:15px; font-weight:700; color:#26354d; margin-top:2px; }
+  .via { padding:10px 16px 14px; font-size:13px; color:#5c6b80; border-bottom:1px dashed #d8dee9; }
+  .validity { padding:12px 16px; font-size:12px; color:#6b7688; line-height:1.5; }
+  .footer-note { padding:10px 16px 14px; font-size:12px; color:#b3261e; line-height:1.45; border-top:1px solid #eef1f6; }
+  .qr-area { padding:16px; text-align:center; background:#f7f9fd; border-top:1px solid #e3e8f0; }
+  .qr-area h3 { margin:0 0 4px; font-size:14px; color:#0d5fb8; }
+  .qr-area .live { font-size:11px; color:#137333; margin-bottom:10px; }
+  #qr { display:inline-block; padding:10px; background:#fff; border:1px solid #d8dee9; border-radius:12px; min-width:170px; min-height:170px; }
+  #qr img, #qr canvas { display:block; margin:0 auto; }
+  .qr-payload { font-size:10px; color:#78859a; word-break:break-all; margin-top:10px; }
+  .disclaimer { margin:12px 16px 22px; padding:10px 12px; border-radius:9px; background:#fff3cd; border:1px solid #ffe08a; color:#6b4e00; font-size:11px; line-height:1.45; text-align:center; }
+</style>
+</head>
+<body>
+<div class="header">
+  <div class="back" onclick="close()">‹</div>
+  <h1>Booking Details</h1>
+</div>
+
+<div class="greeting">
+  <span id="greeting">Thank You, Test Passenger &nbsp; Happy Journey!</span>
+  <span class="new-tag">new</span>
+</div>
+
+<div class="sheet">
+  <div class="countdown">
+    <div class="side left">CUSTOM DEMO</div>
+    <div class="side right">कस्टम</div>
+    <h2>Dynamic preview will close in</h2>
+    <div class="timer" id="timer">05:00</div>
+    <div class="booking-time">Ticket Booking Date &amp; Time<br/><b id="bookingDate">—</b></div>
+    <div class="nontransfer">Ticket is Non-Transferable</div>
+    <div class="progress"><div id="bar"></div></div>
+  </div>
+
+  <div class="meta">
+    <div class="row">
+      <span class="ticket-id" id="ticketId">Journey Ticket · new…</span>
+      <span class="active">ACTIVE</span>
+    </div>
+    <div class="stations"><span>Source</span><span>Destination</span></div>
+    <div class="stations"><b id="source">—</b><b id="destination">—</b></div>
+  </div>
+
+  <div class="grid">
+    <div class="cell"><div class="k">Distance</div><div class="v" id="distance">—</div></div>
+    <div class="cell"><div class="k">Passenger</div><div class="v" id="passenger">—</div></div>
+    <div class="cell"><div class="k">Ticket Type</div><div class="v" id="ticketType">—</div></div>
+    <div class="cell"><div class="k">Train Types</div><div class="v" id="trainTypes">—</div></div>
+    <div class="cell"><div class="k">Class</div><div class="v" id="klass">—</div></div>
+    <div class="cell"><div class="k">Fare</div><div class="v" id="fare">—</div></div>
+  </div>
+
+  <div class="via">↔ &nbsp; Via: <b id="via">—</b></div>
+
+  <div class="validity">Valid for start of journey within 3 hour or until departure of the first train.</div>
+  <div class="footer-note">Note: This ticket is non refundable. Ticket is stored locally on this device as a labelled custom demo.</div>
+
+  <div class="qr-area">
+    <h3>Live QR</h3>
+    <div class="live">● refreshes with the countdown</div>
+    <div id="qr"></div>
+    <div class="qr-payload" id="qrPayload">—</div>
+  </div>
+</div>
+
+<div class="disclaimer"><b>CUSTOM DEMO — NOT VALID FOR TRAVEL.</b><br/>This is a user-created test ticket. It is not issued by RailOne or Indian Railways and must not be presented as a travel ticket.</div>
+
+<script src="qrcode.min.js"></script>
+<script>
+var ticket = {};
+try { ticket = JSON.parse(BrerailDetail.getTicket() || '{}'); } catch (e) { ticket = {}; }
+
+function esc(s) { return (s === undefined || s === null || s === '') ? '—' : String(s); }
+function set(id, v) { var el = document.getElementById(id); if (el) el.textContent = esc(v); }
+
+var DURATION = 5 * 60 * 1000;
+var createdAt = parseInt(ticket.createdAt, 10);
+if (isNaN(createdAt) || createdAt <= 0) { createdAt = Date.now(); }
+var deadline = createdAt + DURATION;
+var remaining = DURATION;
+
+function fmt(ms) {
+  if (ms < 0) ms = 0;
+  var total = Math.floor(ms / 1000);
+  var m = Math.floor(total / 60);
+  var s = total % 60;
+  return (m < 10 ? '0' : '') + m + ':' + (s < 10 ? '0' : '') + s;
+}
+
+function qrPayload() {
+  return 'BRERAIL-CUSTOM-DEMO|' + esc(ticket.id) + '|' + esc(ticket.source) + '|' + esc(ticket.destination)
+    + '|' + esc(ticket.name) + '|ACTIVE|' + fmt(remaining) + '|' + esc(ticket.qrText || 'CUSTOM-DEMO-TICKET');
+}
+
+function drawQr() {
+  var box = document.getElementById('qr');
+  box.innerHTML = '';
+  var payload = qrPayload();
+  document.getElementById('qrPayload').textContent = payload;
+  if (typeof QRCode !== 'undefined') {
+    try {
+      new QRCode(box, { text: payload, width: 168, height: 168, colorDark: '#111827', colorLight: '#ffffff', correctLevel: QRCode.CorrectLevel.M });
+      return;
+    } catch (e) {}
+  }
+  box.textContent = 'QR unavailable';
+}
+
+function tick() {
+  remaining = deadline - Date.now();
+  if (remaining < 0) remaining = 0;
+  set('timer', fmt(remaining));
+  document.getElementById('bar').style.width = Math.max(0, (remaining / DURATION) * 100) + '%';
+  drawQr();
+  if (remaining > 0) { setTimeout(tick, 1000); }
+  else { document.querySelector('.live').textContent = '● preview closed'; }
+}
+
+function close() { try { BrerailDetail.toast('Use the system back button'); } catch (e) {} }
+
+window.onload = function() {
+  set('greeting', 'Thank You, ' + esc(ticket.name) + '   Happy Journey!');
+  set('bookingDate', ticket.bookingDate || new Date(createdAt).toLocaleString());
+  set('ticketId', 'Journey Ticket · ' + esc(ticket.id));
+  set('source', ticket.source);
+  set('destination', ticket.destination);
+  set('distance', ticket.distance);
+  set('passenger', esc(ticket.adults) + ' Adult, ' + esc(ticket.children) + ' Child');
+  set('ticketType', ticket.ticketType);
+  set('trainTypes', ticket.trainTypes);
+  set('klass', ticket.klass);
+  set('fare', ticket.fare);
+  set('via', ticket.via);
+  tick();
+};
+</script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+.class public abstract Lbw09o4/EF6iFNA;
+.super Ljava/lang/Object;
+.source "Obfuscated"
+
+
+# direct methods
+.method public static gSRAvs0(Landroid/os/StrictMode$VmPolicy$Builder;)Landroid/os/StrictMode$VmPolicy$Builder;
+    .locals 0
+
+    .line 1
+    invoke-static {p0}, Lbw09o4/ZwaePLeV;->gSRAvs0(Landroid/os/StrictMode$VmPolicy$Builder;)Landroid/os/StrictMode$VmPolicy$Builder;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p0
+
+    .line 5
+    return-object p0
+.end method

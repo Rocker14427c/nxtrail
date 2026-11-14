@@ -1,0 +1,729 @@
+.class public abstract Lk5glh/Z83SrZ;
+.super Ljava/lang/Object;
+.source "Obfuscated"
+
+
+# static fields
+.field public static final gSRAvs0:[S
+
+.field public static final lE4XuO6:[B
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 11
+
+    .line 1
+    const/16 v0, 0x80
+
+    .line 2
+    .line 3
+    new-array v1, v0, [S
+
+    .line 4
+    .line 5
+    sput-object v1, Lk5glh/Z83SrZ;->gSRAvs0:[S
+
+    .line 6
+    .line 7
+    const/16 v1, 0x70
+
+    .line 8
+    .line 9
+    new-array v2, v1, [B
+
+    .line 10
+    .line 11
+    sput-object v2, Lk5glh/Z83SrZ;->lE4XuO6:[B
+
+    .line 12
+    .line 13
+    new-array v3, v0, [B
+
+    .line 14
+    .line 15
+    const/16 v4, 0xf
+
+    .line 16
+    .line 17
+    const/4 v5, 0x1
+
+    .line 18
+    const/4 v6, 0x0
+
+    .line 19
+    invoke-static {v3, v6, v4, v5}, Lk5glh/Z83SrZ;->gSRAvs0([BIIB)V
+
+    .line 20
+    .line 21
+    .line 22
+    const/16 v4, 0x1f
+
+    .line 23
+    .line 24
+    const/4 v7, 0x2
+
+    .line 25
+    const/16 v8, 0x10
+
+    .line 26
+    .line 27
+    invoke-static {v3, v8, v4, v7}, Lk5glh/Z83SrZ;->gSRAvs0([BIIB)V
+
+    .line 28
+    .line 29
+    .line 30
+    const/16 v4, 0x3f
+
+    .line 31
+    .line 32
+    const/4 v7, 0x3
+
+    .line 33
+    const/16 v9, 0x20
+
+    .line 34
+    .line 35
+    invoke-static {v3, v9, v4, v7}, Lk5glh/Z83SrZ;->gSRAvs0([BIIB)V
+
+    .line 36
+    .line 37
+    .line 38
+    const/16 v4, 0x40
+
+    .line 39
+    .line 40
+    const/16 v7, 0x41
+
+    .line 41
+    .line 42
+    invoke-static {v3, v4, v7, v6}, Lk5glh/Z83SrZ;->gSRAvs0([BIIB)V
+
+    .line 43
+    .line 44
+    .line 45
+    const/16 v4, 0x5f
+
+    .line 46
+    .line 47
+    const/4 v7, 0x4
+
+    .line 48
+    const/16 v9, 0x42
+
+    .line 49
+    .line 50
+    invoke-static {v3, v9, v4, v7}, Lk5glh/Z83SrZ;->gSRAvs0([BIIB)V
+
+    .line 51
+    .line 52
+    .line 53
+    const/16 v4, 0x60
+
+    .line 54
+    .line 55
+    const/4 v7, 0x5
+
+    .line 56
+    invoke-static {v3, v4, v4, v7}, Lk5glh/Z83SrZ;->gSRAvs0([BIIB)V
+
+    .line 57
+    .line 58
+    .line 59
+    const/16 v4, 0x61
+
+    .line 60
+    .line 61
+    const/16 v7, 0x6c
+
+    .line 62
+    .line 63
+    const/4 v9, 0x6
+
+    .line 64
+    invoke-static {v3, v4, v7, v9}, Lk5glh/Z83SrZ;->gSRAvs0([BIIB)V
+
+    .line 65
+    .line 66
+    .line 67
+    const/16 v4, 0x6d
+
+    .line 68
+    .line 69
+    const/4 v7, 0x7
+
+    .line 70
+    invoke-static {v3, v4, v4, v7}, Lk5glh/Z83SrZ;->gSRAvs0([BIIB)V
+
+    .line 71
+    .line 72
+    .line 73
+    const/16 v4, 0x6e
+
+    .line 74
+    .line 75
+    const/16 v7, 0x6f
+
+    .line 76
+    .line 77
+    invoke-static {v3, v4, v7, v9}, Lk5glh/Z83SrZ;->gSRAvs0([BIIB)V
+
+    .line 78
+    .line 79
+    .line 80
+    const/16 v4, 0x8
+
+    .line 81
+    .line 82
+    invoke-static {v3, v1, v1, v4}, Lk5glh/Z83SrZ;->gSRAvs0([BIIB)V
+
+    .line 83
+    .line 84
+    .line 85
+    const/16 v1, 0x73
+
+    .line 86
+    .line 87
+    const/16 v9, 0x9
+
+    .line 88
+    .line 89
+    const/16 v10, 0x71
+
+    .line 90
+    .line 91
+    invoke-static {v3, v10, v1, v9}, Lk5glh/Z83SrZ;->gSRAvs0([BIIB)V
+
+    .line 92
+    .line 93
+    .line 94
+    const/16 v1, 0x74
+
+    .line 95
+    .line 96
+    const/16 v9, 0xa
+
+    .line 97
+    .line 98
+    invoke-static {v3, v1, v1, v9}, Lk5glh/Z83SrZ;->gSRAvs0([BIIB)V
+
+    .line 99
+    .line 100
+    .line 101
+    const/16 v1, 0x75
+
+    .line 102
+    .line 103
+    const/16 v9, 0x7f
+
+    .line 104
+    .line 105
+    invoke-static {v3, v1, v9, v6}, Lk5glh/Z83SrZ;->gSRAvs0([BIIB)V
+
+    .line 106
+    .line 107
+    .line 108
+    const/4 v1, -0x2
+
+    .line 109
+    invoke-static {v2, v6, v7, v1}, Lk5glh/Z83SrZ;->gSRAvs0([BIIB)V
+
+    .line 110
+    .line 111
+    .line 112
+    const/16 v1, 0xb
+
+    .line 113
+    .line 114
+    const/4 v7, -0x1
+
+    .line 115
+    invoke-static {v2, v4, v1, v7}, Lk5glh/Z83SrZ;->gSRAvs0([BIIB)V
+
+    .line 116
+    .line 117
+    .line 118
+    const/16 v7, 0x18
+
+    .line 119
+    .line 120
+    const/16 v9, 0x1b
+
+    .line 121
+    .line 122
+    invoke-static {v2, v7, v9, v6}, Lk5glh/Z83SrZ;->gSRAvs0([BIIB)V
+
+    .line 123
+    .line 124
+    .line 125
+    const/16 v7, 0x28
+
+    .line 126
+    .line 127
+    const/16 v9, 0x2b
+
+    .line 128
+    .line 129
+    invoke-static {v2, v7, v9, v8}, Lk5glh/Z83SrZ;->gSRAvs0([BIIB)V
+
+    .line 130
+    .line 131
+    .line 132
+    const/16 v7, 0x3a
+
+    .line 133
+    .line 134
+    const/16 v9, 0x3b
+
+    .line 135
+    .line 136
+    invoke-static {v2, v7, v9, v6}, Lk5glh/Z83SrZ;->gSRAvs0([BIIB)V
+
+    .line 137
+    .line 138
+    .line 139
+    const/16 v7, 0x48
+
+    .line 140
+    .line 141
+    const/16 v9, 0x49
+
+    .line 142
+    .line 143
+    invoke-static {v2, v7, v9, v6}, Lk5glh/Z83SrZ;->gSRAvs0([BIIB)V
+
+    .line 144
+    .line 145
+    .line 146
+    const/16 v7, 0x59
+
+    .line 147
+    .line 148
+    const/16 v9, 0x5b
+
+    .line 149
+    .line 150
+    invoke-static {v2, v7, v9, v8}, Lk5glh/Z83SrZ;->gSRAvs0([BIIB)V
+
+    .line 151
+    .line 152
+    .line 153
+    const/16 v7, 0x68
+
+    .line 154
+    .line 155
+    invoke-static {v2, v7, v7, v8}, Lk5glh/Z83SrZ;->gSRAvs0([BIIB)V
+
+    .line 156
+    .line 157
+    .line 158
+    new-array v2, v1, [B
+
+    .line 159
+    .line 160
+    fill-array-data v2, :array_0
+
+    .line 161
+    .line 162
+    .line 163
+    new-array v1, v1, [B
+
+    .line 164
+    .line 165
+    fill-array-data v1, :array_1
+
+    .line 166
+    .line 167
+    .line 168
+    :goto_0
+    if-ge v6, v0, :cond_0
+
+    .line 169
+    .line 170
+    aget-byte v7, v3, v6
+
+    .line 171
+    .line 172
+    aget-byte v8, v2, v7
+
+    .line 173
+    .line 174
+    and-int/2addr v8, v6
+
+    .line 175
+    aget-byte v7, v1, v7
+
+    .line 176
+    .line 177
+    sget-object v9, Lk5glh/Z83SrZ;->gSRAvs0:[S
+
+    .line 178
+    .line 179
+    shl-int/2addr v8, v4
+
+    .line 180
+    or-int/2addr v7, v8
+
+    .line 181
+    int-to-short v7, v7
+
+    .line 182
+    aput-short v7, v9, v6
+
+    .line 183
+    .line 184
+    add-int/2addr v6, v5
+
+    .line 185
+    goto :goto_0
+
+    .line 186
+    :cond_0
+    return-void
+
+    .line 187
+    :array_0
+    .array-data 1
+        0x0t
+        0x0t
+        0x0t
+        0x0t
+        0x1ft
+        0xft
+        0xft
+        0xft
+        0x7t
+        0x7t
+        0x7t
+    .end array-data
+
+    .line 188
+    .line 189
+    .line 190
+    .line 191
+    .line 192
+    .line 193
+    .line 194
+    .line 195
+    .line 196
+    .line 197
+    :array_1
+    .array-data 1
+        -0x2t
+        -0x2t
+        -0x2t
+        -0x2t
+        0x0t
+        0x30t
+        0x10t
+        0x40t
+        0x50t
+        0x20t
+        0x60t
+    .end array-data
+.end method
+
+.method public static gSRAvs0([BIIB)V
+    .locals 0
+
+    .line 1
+    :goto_0
+    if-gt p1, p2, :cond_0
+
+    .line 2
+    .line 3
+    aput-byte p3, p0, p1
+
+    .line 4
+    .line 5
+    add-int/lit8 p1, p1, 0x1
+
+    .line 6
+    .line 7
+    goto :goto_0
+
+    .line 8
+    :cond_0
+    return-void
+.end method
+
+.method public static lE4XuO6([BII[C)I
+    .locals 6
+
+    .line 1
+    add-int/2addr p2, p1
+
+    .line 2
+    const/4 v0, 0x0
+
+    .line 3
+    :goto_0
+    if-ge p1, p2, :cond_8
+
+    .line 4
+    .line 5
+    add-int/lit8 v1, p1, 0x1
+
+    .line 6
+    .line 7
+    aget-byte p1, p0, p1
+
+    .line 8
+    .line 9
+    const/4 v2, -0x1
+
+    .line 10
+    if-ltz p1, :cond_1
+
+    .line 11
+    .line 12
+    array-length v3, p3
+
+    .line 13
+    if-lt v0, v3, :cond_0
+
+    .line 14
+    .line 15
+    return v2
+
+    .line 16
+    :cond_0
+    add-int/lit8 v2, v0, 0x1
+
+    .line 17
+    .line 18
+    int-to-char p1, p1
+
+    .line 19
+    aput-char p1, p3, v0
+
+    .line 20
+    .line 21
+    move p1, v1
+
+    .line 22
+    move v0, v2
+
+    .line 23
+    goto :goto_0
+
+    .line 24
+    :cond_1
+    sget-object v3, Lk5glh/Z83SrZ;->gSRAvs0:[S
+
+    .line 25
+    .line 26
+    and-int/lit8 p1, p1, 0x7f
+
+    .line 27
+    .line 28
+    aget-short p1, v3, p1
+
+    .line 29
+    .line 30
+    ushr-int/lit8 v3, p1, 0x8
+
+    .line 31
+    .line 32
+    int-to-byte p1, p1
+
+    .line 33
+    :goto_1
+    if-ltz p1, :cond_3
+
+    .line 34
+    .line 35
+    if-lt v1, p2, :cond_2
+
+    .line 36
+    .line 37
+    return v2
+
+    .line 38
+    :cond_2
+    add-int/lit8 v4, v1, 0x1
+
+    .line 39
+    .line 40
+    aget-byte v1, p0, v1
+
+    .line 41
+    .line 42
+    shl-int/lit8 v3, v3, 0x6
+
+    .line 43
+    .line 44
+    and-int/lit8 v5, v1, 0x3f
+
+    .line 45
+    .line 46
+    or-int/2addr v3, v5
+
+    .line 47
+    sget-object v5, Lk5glh/Z83SrZ;->lE4XuO6:[B
+
+    .line 48
+    .line 49
+    and-int/lit16 v1, v1, 0xff
+
+    .line 50
+    .line 51
+    ushr-int/lit8 v1, v1, 0x4
+
+    .line 52
+    .line 53
+    add-int/2addr p1, v1
+
+    .line 54
+    aget-byte p1, v5, p1
+
+    .line 55
+    .line 56
+    move v1, v4
+
+    .line 57
+    goto :goto_1
+
+    .line 58
+    :cond_3
+    const/4 v4, -0x2
+
+    .line 59
+    if-ne p1, v4, :cond_4
+
+    .line 60
+    .line 61
+    return v2
+
+    .line 62
+    :cond_4
+    const p1, 0xffff
+
+    .line 63
+    .line 64
+    .line 65
+    if-gt v3, p1, :cond_6
+
+    .line 66
+    .line 67
+    array-length p1, p3
+
+    .line 68
+    if-lt v0, p1, :cond_5
+
+    .line 69
+    .line 70
+    return v2
+
+    .line 71
+    :cond_5
+    add-int/lit8 p1, v0, 0x1
+
+    .line 72
+    .line 73
+    int-to-char v2, v3
+
+    .line 74
+    aput-char v2, p3, v0
+
+    .line 75
+    .line 76
+    move v0, p1
+
+    .line 77
+    :goto_2
+    move p1, v1
+
+    .line 78
+    goto :goto_0
+
+    .line 79
+    :cond_6
+    array-length p1, p3
+
+    .line 80
+    add-int/lit8 p1, p1, -0x1
+
+    .line 81
+    .line 82
+    if-lt v0, p1, :cond_7
+
+    .line 83
+    .line 84
+    return v2
+
+    .line 85
+    :cond_7
+    add-int/lit8 p1, v0, 0x1
+
+    .line 86
+    .line 87
+    ushr-int/lit8 v2, v3, 0xa
+
+    .line 88
+    .line 89
+    const v4, 0xd7c0
+
+    .line 90
+    .line 91
+    .line 92
+    add-int/2addr v2, v4
+
+    .line 93
+    int-to-char v2, v2
+
+    .line 94
+    aput-char v2, p3, v0
+
+    .line 95
+    .line 96
+    add-int/lit8 v0, v0, 0x2
+
+    .line 97
+    .line 98
+    and-int/lit16 v2, v3, 0x3ff
+
+    .line 99
+    .line 100
+    const v3, 0xdc00
+
+    .line 101
+    .line 102
+    .line 103
+    or-int/2addr v2, v3
+
+    .line 104
+    int-to-char v2, v2
+
+    .line 105
+    aput-char v2, p3, p1
+
+    .line 106
+    .line 107
+    goto :goto_2
+
+    .line 108
+    :cond_8
+    return v0
+.end method
+
+.method public static uc8gdK2([B[C)I
+    .locals 2
+
+    .line 1
+    array-length v0, p0
+
+    .line 2
+    const/4 v1, 0x0
+
+    .line 3
+    invoke-static {p0, v1, v0, p1}, Lk5glh/Z83SrZ;->lE4XuO6([BII[C)I
+
+    .line 4
+    .line 5
+    .line 6
+    move-result p0
+
+    .line 7
+    return p0
+.end method

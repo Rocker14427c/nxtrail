@@ -1,0 +1,38 @@
+.class public abstract Lqutu0xhw/UOSck$ACzlY$CIoHpRd;
+.super Ljava/lang/Object;
+.source "Obfuscated"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lqutu0xhw/UOSck$ACzlY;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "CIoHpRd"
+.end annotation
+
+
+# direct methods
+.method public static gSRAvs0(Landroid/app/Notification$Builder;Landroid/app/Person;)Landroid/app/Notification$Builder;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p1}, Landroid/app/Notification$Builder;->addPerson(Landroid/app/Person;)Landroid/app/Notification$Builder;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p0
+
+    .line 5
+    return-object p0
+.end method
+
+.method public static lE4XuO6(Landroid/app/Person;)Landroid/os/Parcelable;
+    .locals 0
+
+    .line 1
+    return-object p0
+.end method

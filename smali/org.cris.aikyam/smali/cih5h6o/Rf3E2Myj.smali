@@ -1,0 +1,20 @@
+.class public abstract synthetic Lcih5h6o/Rf3E2Myj;
+.super Ljava/lang/Object;
+.source "Obfuscated"
+
+
+# direct methods
+.method public static bridge synthetic gSRAvs0(Landroid/speech/RecognitionSupport;)Ljava/util/List;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0}, Landroid/speech/RecognitionSupport;->getSupportedOnDeviceLanguages()Ljava/util/List;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p0
+
+    .line 5
+    return-object p0
+.end method

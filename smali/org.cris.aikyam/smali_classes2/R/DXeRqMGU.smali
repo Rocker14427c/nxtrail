@@ -1,0 +1,61 @@
+.class public final synthetic LR/DXeRqMGU;
+.super Ljava/lang/Object;
+.source "Obfuscated"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function1;
+
+
+# instance fields
+.field public final synthetic gXiFk:LR/LmYxsLg;
+
+
+# direct methods
+.method public synthetic constructor <init>(LR/LmYxsLg;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, LR/DXeRqMGU;->gXiFk:LR/LmYxsLg;
+
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 3
+
+    .line 1
+    iget-object v0, p0, LR/DXeRqMGU;->gXiFk:LR/LmYxsLg;
+
+    .line 2
+    .line 3
+    check-cast p1, Ljava/lang/Double;
+
+    .line 4
+    .line 5
+    invoke-virtual {p1}, Ljava/lang/Double;->doubleValue()D
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-wide v1
+
+    .line 9
+    invoke-static {v0, v1, v2}, LR/LmYxsLg;->w4CLNk(LR/LmYxsLg;D)Lkotlin/Unit;
+
+    .line 10
+    .line 11
+    .line 12
+    move-result-object p1
+
+    .line 13
+    return-object p1
+.end method

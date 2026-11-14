@@ -1,0 +1,54 @@
+.class public final LN0/NcHW6N;
+.super LN0/S05xPv;
+.source "Obfuscated"
+
+
+# instance fields
+.field public final uqhdq:Lkotlin/coroutines/Continuation;
+
+
+# direct methods
+.method public constructor <init>(Lkotlin/coroutines/CoroutineContext;Lkotlin/jvm/functions/Function2;)V
+    .locals 1
+
+    .line 1
+    const/4 v0, 0x0
+
+    .line 2
+    invoke-direct {p0, p1, v0}, LN0/S05xPv;-><init>(Lkotlin/coroutines/CoroutineContext;Z)V
+
+    .line 3
+    .line 4
+    .line 5
+    invoke-static {p2, p0, p0}, Lkotlin/coroutines/intrinsics/IntrinsicsKt;->createCoroutineUnintercepted(Lkotlin/jvm/functions/Function2;Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object p1
+
+    .line 9
+    iput-object p1, p0, LN0/NcHW6N;->uqhdq:Lkotlin/coroutines/Continuation;
+
+    .line 10
+    .line 11
+    return-void
+.end method
+
+
+# virtual methods
+.method public gUhaqba()V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, LN0/NcHW6N;->uqhdq:Lkotlin/coroutines/Continuation;
+
+    .line 2
+    .line 3
+    invoke-static {v0, p0}, LT0/CIoHpRd;->lE4XuO6(Lkotlin/coroutines/Continuation;Lkotlin/coroutines/Continuation;)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method

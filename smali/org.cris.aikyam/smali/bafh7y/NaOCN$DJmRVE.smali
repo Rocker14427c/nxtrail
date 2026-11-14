@@ -1,0 +1,31 @@
+.class public interface abstract Lbafh7y/NaOCN$DJmRVE;
+.super Ljava/lang/Object;
+.source "Obfuscated"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lbafh7y/NaOCN;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "DJmRVE"
+.end annotation
+
+
+# virtual methods
+.method public abstract gSRAvs0()I
+.end method
+
+.method public abstract getPosition()J
+.end method
+
+.method public abstract lE4XuO6(I)V
+.end method
+
+.method public abstract readUnsignedShort()I
+.end method
+
+.method public abstract uc8gdK2()J
+.end method

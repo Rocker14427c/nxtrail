@@ -1,0 +1,1899 @@
+.class public abstract Lcom/google/protobuf/YaFUk;
+.super Ljava/lang/Object;
+.source "Obfuscated"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/protobuf/YaFUk$QZvAm;,
+        Lcom/google/protobuf/YaFUk$DJmRVE;,
+        Lcom/google/protobuf/YaFUk$Z83SrZ;,
+        Lcom/google/protobuf/YaFUk$AcECZ05b;
+    }
+.end annotation
+
+
+# static fields
+.field public static final bTCCo:Z
+
+.field public static final fQb4dm20:I
+
+.field public static final gSRAvs0:Lsun/misc/Unsafe;
+
+.field public static final j0fws:J
+
+.field public static final jEii0y:Z
+
+.field public static final lE4XuO6:Ljava/lang/Class;
+
+.field public static final ln2scR:J
+
+.field public static final mMx9OfQQ:J
+
+.field public static final qDuDu6n:J
+
+.field public static final qKuO8:J
+
+.field public static final qSabaQa:Lcom/google/protobuf/YaFUk$AcECZ05b;
+
+.field public static final qnUr9GP:Z
+
+.field public static final rF6rhE:Z
+
+.field public static final tugTe:J
+
+.field public static final uc8gdK2:Z
+
+.field public static final ud6sfq6F:J
+
+.field public static final veush:J
+
+.field public static final w4CLNk:J
+
+.field public static final wrDYHx1:J
+
+.field public static final wuyGmLIm:J
+
+.field public static final yJI6Im:J
+
+.field public static final zqsmf4:J
+
+.field public static final zwQrHWCn:J
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 5
+
+    .line 1
+    invoke-static {}, Lcom/google/protobuf/YaFUk;->bojF856b()Lsun/misc/Unsafe;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    sput-object v0, Lcom/google/protobuf/YaFUk;->gSRAvs0:Lsun/misc/Unsafe;
+
+    .line 6
+    .line 7
+    invoke-static {}, Lcom/google/protobuf/Z83SrZ;->lE4XuO6()Ljava/lang/Class;
+
+    .line 8
+    .line 9
+    .line 10
+    move-result-object v0
+
+    .line 11
+    sput-object v0, Lcom/google/protobuf/YaFUk;->lE4XuO6:Ljava/lang/Class;
+
+    .line 12
+    .line 13
+    sget-object v0, Ljava/lang/Long;->TYPE:Ljava/lang/Class;
+
+    .line 14
+    .line 15
+    invoke-static {v0}, Lcom/google/protobuf/YaFUk;->yJI6Im(Ljava/lang/Class;)Z
+
+    .line 16
+    .line 17
+    .line 18
+    move-result v0
+
+    .line 19
+    sput-boolean v0, Lcom/google/protobuf/YaFUk;->uc8gdK2:Z
+
+    .line 20
+    .line 21
+    sget-object v0, Ljava/lang/Integer;->TYPE:Ljava/lang/Class;
+
+    .line 22
+    .line 23
+    invoke-static {v0}, Lcom/google/protobuf/YaFUk;->yJI6Im(Ljava/lang/Class;)Z
+
+    .line 24
+    .line 25
+    .line 26
+    move-result v0
+
+    .line 27
+    sput-boolean v0, Lcom/google/protobuf/YaFUk;->jEii0y:Z
+
+    .line 28
+    .line 29
+    invoke-static {}, Lcom/google/protobuf/YaFUk;->cAW7B0()Lcom/google/protobuf/YaFUk$AcECZ05b;
+
+    .line 30
+    .line 31
+    .line 32
+    move-result-object v0
+
+    .line 33
+    sput-object v0, Lcom/google/protobuf/YaFUk;->qSabaQa:Lcom/google/protobuf/YaFUk$AcECZ05b;
+
+    .line 34
+    .line 35
+    invoke-static {}, Lcom/google/protobuf/YaFUk;->sGqqN9f()Z
+
+    .line 36
+    .line 37
+    .line 38
+    move-result v0
+
+    .line 39
+    sput-boolean v0, Lcom/google/protobuf/YaFUk;->bTCCo:Z
+
+    .line 40
+    .line 41
+    invoke-static {}, Lcom/google/protobuf/YaFUk;->lQ4Kq3()Z
+
+    .line 42
+    .line 43
+    .line 44
+    move-result v0
+
+    .line 45
+    sput-boolean v0, Lcom/google/protobuf/YaFUk;->rF6rhE:Z
+
+    .line 46
+    .line 47
+    const-class v0, [B
+
+    .line 48
+    .line 49
+    invoke-static {v0}, Lcom/google/protobuf/YaFUk;->tugTe(Ljava/lang/Class;)I
+
+    .line 50
+    .line 51
+    .line 52
+    move-result v0
+
+    .line 53
+    int-to-long v0, v0
+
+    .line 54
+    sput-wide v0, Lcom/google/protobuf/YaFUk;->w4CLNk:J
+
+    .line 55
+    .line 56
+    const-class v2, [Z
+
+    .line 57
+    .line 58
+    invoke-static {v2}, Lcom/google/protobuf/YaFUk;->tugTe(Ljava/lang/Class;)I
+
+    .line 59
+    .line 60
+    .line 61
+    move-result v3
+
+    .line 62
+    int-to-long v3, v3
+
+    .line 63
+    sput-wide v3, Lcom/google/protobuf/YaFUk;->j0fws:J
+
+    .line 64
+    .line 65
+    invoke-static {v2}, Lcom/google/protobuf/YaFUk;->wrDYHx1(Ljava/lang/Class;)I
+
+    .line 66
+    .line 67
+    .line 68
+    move-result v2
+
+    .line 69
+    int-to-long v2, v2
+
+    .line 70
+    sput-wide v2, Lcom/google/protobuf/YaFUk;->qDuDu6n:J
+
+    .line 71
+    .line 72
+    const-class v2, [I
+
+    .line 73
+    .line 74
+    invoke-static {v2}, Lcom/google/protobuf/YaFUk;->tugTe(Ljava/lang/Class;)I
+
+    .line 75
+    .line 76
+    .line 77
+    move-result v3
+
+    .line 78
+    int-to-long v3, v3
+
+    .line 79
+    sput-wide v3, Lcom/google/protobuf/YaFUk;->qKuO8:J
+
+    .line 80
+    .line 81
+    invoke-static {v2}, Lcom/google/protobuf/YaFUk;->wrDYHx1(Ljava/lang/Class;)I
+
+    .line 82
+    .line 83
+    .line 84
+    move-result v2
+
+    .line 85
+    int-to-long v2, v2
+
+    .line 86
+    sput-wide v2, Lcom/google/protobuf/YaFUk;->tugTe:J
+
+    .line 87
+    .line 88
+    const-class v2, [J
+
+    .line 89
+    .line 90
+    invoke-static {v2}, Lcom/google/protobuf/YaFUk;->tugTe(Ljava/lang/Class;)I
+
+    .line 91
+    .line 92
+    .line 93
+    move-result v3
+
+    .line 94
+    int-to-long v3, v3
+
+    .line 95
+    sput-wide v3, Lcom/google/protobuf/YaFUk;->wrDYHx1:J
+
+    .line 96
+    .line 97
+    invoke-static {v2}, Lcom/google/protobuf/YaFUk;->wrDYHx1(Ljava/lang/Class;)I
+
+    .line 98
+    .line 99
+    .line 100
+    move-result v2
+
+    .line 101
+    int-to-long v2, v2
+
+    .line 102
+    sput-wide v2, Lcom/google/protobuf/YaFUk;->ln2scR:J
+
+    .line 103
+    .line 104
+    const-class v2, [F
+
+    .line 105
+    .line 106
+    invoke-static {v2}, Lcom/google/protobuf/YaFUk;->tugTe(Ljava/lang/Class;)I
+
+    .line 107
+    .line 108
+    .line 109
+    move-result v3
+
+    .line 110
+    int-to-long v3, v3
+
+    .line 111
+    sput-wide v3, Lcom/google/protobuf/YaFUk;->yJI6Im:J
+
+    .line 112
+    .line 113
+    invoke-static {v2}, Lcom/google/protobuf/YaFUk;->wrDYHx1(Ljava/lang/Class;)I
+
+    .line 114
+    .line 115
+    .line 116
+    move-result v2
+
+    .line 117
+    int-to-long v2, v2
+
+    .line 118
+    sput-wide v2, Lcom/google/protobuf/YaFUk;->zwQrHWCn:J
+
+    .line 119
+    .line 120
+    const-class v2, [D
+
+    .line 121
+    .line 122
+    invoke-static {v2}, Lcom/google/protobuf/YaFUk;->tugTe(Ljava/lang/Class;)I
+
+    .line 123
+    .line 124
+    .line 125
+    move-result v3
+
+    .line 126
+    int-to-long v3, v3
+
+    .line 127
+    sput-wide v3, Lcom/google/protobuf/YaFUk;->wuyGmLIm:J
+
+    .line 128
+    .line 129
+    invoke-static {v2}, Lcom/google/protobuf/YaFUk;->wrDYHx1(Ljava/lang/Class;)I
+
+    .line 130
+    .line 131
+    .line 132
+    move-result v2
+
+    .line 133
+    int-to-long v2, v2
+
+    .line 134
+    sput-wide v2, Lcom/google/protobuf/YaFUk;->ud6sfq6F:J
+
+    .line 135
+    .line 136
+    const-class v2, [Ljava/lang/Object;
+
+    .line 137
+    .line 138
+    invoke-static {v2}, Lcom/google/protobuf/YaFUk;->tugTe(Ljava/lang/Class;)I
+
+    .line 139
+    .line 140
+    .line 141
+    move-result v3
+
+    .line 142
+    int-to-long v3, v3
+
+    .line 143
+    sput-wide v3, Lcom/google/protobuf/YaFUk;->zqsmf4:J
+
+    .line 144
+    .line 145
+    invoke-static {v2}, Lcom/google/protobuf/YaFUk;->wrDYHx1(Ljava/lang/Class;)I
+
+    .line 146
+    .line 147
+    .line 148
+    move-result v2
+
+    .line 149
+    int-to-long v2, v2
+
+    .line 150
+    sput-wide v2, Lcom/google/protobuf/YaFUk;->mMx9OfQQ:J
+
+    .line 151
+    .line 152
+    invoke-static {}, Lcom/google/protobuf/YaFUk;->ln2scR()Ljava/lang/reflect/Field;
+
+    .line 153
+    .line 154
+    .line 155
+    move-result-object v2
+
+    .line 156
+    invoke-static {v2}, Lcom/google/protobuf/YaFUk;->wuyGmLIm(Ljava/lang/reflect/Field;)J
+
+    .line 157
+    .line 158
+    .line 159
+    move-result-wide v2
+
+    .line 160
+    sput-wide v2, Lcom/google/protobuf/YaFUk;->veush:J
+
+    .line 161
+    .line 162
+    const-wide/16 v2, 0x7
+
+    .line 163
+    .line 164
+    and-long/2addr v0, v2
+
+    .line 165
+    long-to-int v0, v0
+
+    .line 166
+    sput v0, Lcom/google/protobuf/YaFUk;->fQb4dm20:I
+
+    .line 167
+    .line 168
+    invoke-static {}, Ljava/nio/ByteOrder;->nativeOrder()Ljava/nio/ByteOrder;
+
+    .line 169
+    .line 170
+    .line 171
+    move-result-object v0
+
+    .line 172
+    sget-object v1, Ljava/nio/ByteOrder;->BIG_ENDIAN:Ljava/nio/ByteOrder;
+
+    .line 173
+    .line 174
+    if-ne v0, v1, :cond_0
+
+    .line 175
+    .line 176
+    const/4 v0, 0x1
+
+    .line 177
+    goto :goto_0
+
+    .line 178
+    :cond_0
+    const/4 v0, 0x0
+
+    .line 179
+    :goto_0
+    sput-boolean v0, Lcom/google/protobuf/YaFUk;->qnUr9GP:Z
+
+    .line 180
+    .line 181
+    return-void
+.end method
+
+.method public static synthetic bTCCo(Ljava/lang/Object;JB)V
+    .locals 0
+
+    .line 1
+    invoke-static {p0, p1, p2, p3}, Lcom/google/protobuf/YaFUk;->fxwRoDda(Ljava/lang/Object;JB)V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+.method public static bojF856b()Lsun/misc/Unsafe;
+    .locals 1
+
+    .line 1
+    :try_start_0
+    new-instance v0, Lcom/google/protobuf/YaFUk$CIoHpRd;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, Lcom/google/protobuf/YaFUk$CIoHpRd;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    invoke-static {v0}, Ljava/security/AccessController;->doPrivileged(Ljava/security/PrivilegedExceptionAction;)Ljava/lang/Object;
+
+    .line 7
+    .line 8
+    .line 9
+    move-result-object v0
+
+    .line 10
+    check-cast v0, Lsun/misc/Unsafe;
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 11
+    .line 12
+    return-object v0
+
+    .line 13
+    :catchall_0
+    const/4 v0, 0x0
+
+    .line 14
+    return-object v0
+.end method
+
+.method public static cAW7B0()Lcom/google/protobuf/YaFUk$AcECZ05b;
+    .locals 3
+
+    .line 1
+    sget-object v0, Lcom/google/protobuf/YaFUk;->gSRAvs0:Lsun/misc/Unsafe;
+
+    .line 2
+    .line 3
+    const/4 v1, 0x0
+
+    .line 4
+    if-nez v0, :cond_0
+
+    .line 5
+    .line 6
+    return-object v1
+
+    .line 7
+    :cond_0
+    invoke-static {}, Lcom/google/protobuf/Z83SrZ;->uc8gdK2()Z
+
+    .line 8
+    .line 9
+    .line 10
+    move-result v2
+
+    .line 11
+    if-eqz v2, :cond_3
+
+    .line 12
+    .line 13
+    sget-boolean v2, Lcom/google/protobuf/YaFUk;->uc8gdK2:Z
+
+    .line 14
+    .line 15
+    if-eqz v2, :cond_1
+
+    .line 16
+    .line 17
+    new-instance v1, Lcom/google/protobuf/YaFUk$DJmRVE;
+
+    .line 18
+    .line 19
+    invoke-direct {v1, v0}, Lcom/google/protobuf/YaFUk$DJmRVE;-><init>(Lsun/misc/Unsafe;)V
+
+    .line 20
+    .line 21
+    .line 22
+    return-object v1
+
+    .line 23
+    :cond_1
+    sget-boolean v2, Lcom/google/protobuf/YaFUk;->jEii0y:Z
+
+    .line 24
+    .line 25
+    if-eqz v2, :cond_2
+
+    .line 26
+    .line 27
+    new-instance v1, Lcom/google/protobuf/YaFUk$QZvAm;
+
+    .line 28
+    .line 29
+    invoke-direct {v1, v0}, Lcom/google/protobuf/YaFUk$QZvAm;-><init>(Lsun/misc/Unsafe;)V
+
+    .line 30
+    .line 31
+    .line 32
+    :cond_2
+    return-object v1
+
+    .line 33
+    :cond_3
+    new-instance v1, Lcom/google/protobuf/YaFUk$Z83SrZ;
+
+    .line 34
+    .line 35
+    invoke-direct {v1, v0}, Lcom/google/protobuf/YaFUk$Z83SrZ;-><init>(Lsun/misc/Unsafe;)V
+
+    .line 36
+    .line 37
+    .line 38
+    return-object v1
+.end method
+
+.method public static dANRTqF()Z
+    .locals 1
+
+    .line 1
+    sget-boolean v0, Lcom/google/protobuf/YaFUk;->rF6rhE:Z
+
+    .line 2
+    .line 3
+    return v0
+.end method
+
+.method public static dY7aAw(Ljava/lang/Object;J)D
+    .locals 1
+
+    .line 1
+    sget-object v0, Lcom/google/protobuf/YaFUk;->qSabaQa:Lcom/google/protobuf/YaFUk$AcECZ05b;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0, p0, p1, p2}, Lcom/google/protobuf/YaFUk$AcECZ05b;->qSabaQa(Ljava/lang/Object;J)D
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-wide p0
+
+    .line 7
+    return-wide p0
+.end method
+
+.method public static fQb4dm20(Ljava/lang/Object;J)B
+    .locals 2
+
+    .line 1
+    const-wide/16 v0, -0x4
+
+    .line 2
+    .line 3
+    and-long/2addr v0, p1
+
+    .line 4
+    invoke-static {p0, v0, v1}, Lcom/google/protobuf/YaFUk;->gXiFk(Ljava/lang/Object;J)I
+
+    .line 5
+    .line 6
+    .line 7
+    move-result p0
+
+    .line 8
+    not-long p1, p1
+
+    .line 9
+    const-wide/16 v0, 0x3
+
+    .line 10
+    .line 11
+    and-long/2addr p1, v0
+
+    .line 12
+    const/4 v0, 0x3
+
+    .line 13
+    shl-long/2addr p1, v0
+
+    .line 14
+    long-to-int p1, p1
+
+    .line 15
+    ushr-int/2addr p0, p1
+
+    .line 16
+    and-int/lit16 p0, p0, 0xff
+
+    .line 17
+    .line 18
+    int-to-byte p0, p0
+
+    .line 19
+    return p0
+.end method
+
+.method public static fUGXr([BJB)V
+    .locals 3
+
+    .line 1
+    sget-object v0, Lcom/google/protobuf/YaFUk;->qSabaQa:Lcom/google/protobuf/YaFUk$AcECZ05b;
+
+    .line 2
+    .line 3
+    sget-wide v1, Lcom/google/protobuf/YaFUk;->w4CLNk:J
+
+    .line 4
+    .line 5
+    add-long/2addr v1, p1
+
+    .line 6
+    invoke-virtual {v0, p0, v1, v2, p3}, Lcom/google/protobuf/YaFUk$AcECZ05b;->tugTe(Ljava/lang/Object;JB)V
+
+    .line 7
+    .line 8
+    .line 9
+    return-void
+.end method
+
+.method public static fxwRoDda(Ljava/lang/Object;JB)V
+    .locals 4
+
+    .line 1
+    const-wide/16 v0, -0x4
+
+    .line 2
+    .line 3
+    and-long/2addr v0, p1
+
+    .line 4
+    invoke-static {p0, v0, v1}, Lcom/google/protobuf/YaFUk;->gXiFk(Ljava/lang/Object;J)I
+
+    .line 5
+    .line 6
+    .line 7
+    move-result v2
+
+    .line 8
+    long-to-int p1, p1
+
+    .line 9
+    and-int/lit8 p1, p1, 0x3
+
+    .line 10
+    .line 11
+    shl-int/lit8 p1, p1, 0x3
+
+    .line 12
+    .line 13
+    const/16 p2, 0xff
+
+    .line 14
+    .line 15
+    shl-int v3, p2, p1
+
+    .line 16
+    .line 17
+    not-int v3, v3
+
+    .line 18
+    and-int/2addr v2, v3
+
+    .line 19
+    and-int/2addr p2, p3
+
+    .line 20
+    shl-int p1, p2, p1
+
+    .line 21
+    .line 22
+    or-int/2addr p1, v2
+
+    .line 23
+    invoke-static {p0, v0, v1, p1}, Lcom/google/protobuf/YaFUk;->twBNAum(Ljava/lang/Object;JI)V
+
+    .line 24
+    .line 25
+    .line 26
+    return-void
+.end method
+
+.method public static synthetic gSRAvs0(Ljava/lang/Throwable;)V
+    .locals 0
+
+    .line 1
+    invoke-static {p0}, Lcom/google/protobuf/YaFUk;->njSp8hl(Ljava/lang/Throwable;)V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+.method public static gUsH8e(Ljava/lang/Object;JLjava/lang/Object;)V
+    .locals 1
+
+    .line 1
+    sget-object v0, Lcom/google/protobuf/YaFUk;->qSabaQa:Lcom/google/protobuf/YaFUk$AcECZ05b;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0, p0, p1, p2, p3}, Lcom/google/protobuf/YaFUk$AcECZ05b;->wuyGmLIm(Ljava/lang/Object;JLjava/lang/Object;)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+.method public static gXiFk(Ljava/lang/Object;J)I
+    .locals 1
+
+    .line 1
+    sget-object v0, Lcom/google/protobuf/YaFUk;->qSabaQa:Lcom/google/protobuf/YaFUk$AcECZ05b;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0, p0, p1, p2}, Lcom/google/protobuf/YaFUk$AcECZ05b;->rF6rhE(Ljava/lang/Object;J)I
+
+    .line 4
+    .line 5
+    .line 6
+    move-result p0
+
+    .line 7
+    return p0
+.end method
+
+.method public static hi1VN3o(Ljava/lang/Object;JF)V
+    .locals 1
+
+    .line 1
+    sget-object v0, Lcom/google/protobuf/YaFUk;->qSabaQa:Lcom/google/protobuf/YaFUk$AcECZ05b;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0, p0, p1, p2, p3}, Lcom/google/protobuf/YaFUk$AcECZ05b;->ln2scR(Ljava/lang/Object;JF)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+.method public static ije782cf(Ljava/lang/Object;JZ)V
+    .locals 0
+
+    .line 1
+    int-to-byte p3, p3
+
+    .line 2
+    invoke-static {p0, p1, p2, p3}, Lcom/google/protobuf/YaFUk;->fxwRoDda(Ljava/lang/Object;JB)V
+
+    .line 3
+    .line 4
+    .line 5
+    return-void
+.end method
+
+.method public static synthetic j0fws(Ljava/lang/Object;JZ)V
+    .locals 0
+
+    .line 1
+    invoke-static {p0, p1, p2, p3}, Lcom/google/protobuf/YaFUk;->lpJ5LQ1(Ljava/lang/Object;JZ)V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+.method public static synthetic jEii0y(Ljava/lang/Object;J)B
+    .locals 0
+
+    .line 1
+    invoke-static {p0, p1, p2}, Lcom/google/protobuf/YaFUk;->qnUr9GP(Ljava/lang/Object;J)B
+
+    .line 2
+    .line 3
+    .line 4
+    move-result p0
+
+    .line 5
+    return p0
+.end method
+
+.method public static kCriv3F()Z
+    .locals 1
+
+    .line 1
+    sget-boolean v0, Lcom/google/protobuf/YaFUk;->bTCCo:Z
+
+    .line 2
+    .line 3
+    return v0
+.end method
+
+.method public static synthetic lE4XuO6()Ljava/lang/reflect/Field;
+    .locals 1
+
+    .line 1
+    invoke-static {}, Lcom/google/protobuf/YaFUk;->ln2scR()Ljava/lang/reflect/Field;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    return-object v0
+.end method
+
+.method public static lQ4Kq3()Z
+    .locals 1
+
+    .line 1
+    sget-object v0, Lcom/google/protobuf/YaFUk;->qSabaQa:Lcom/google/protobuf/YaFUk$AcECZ05b;
+
+    .line 2
+    .line 3
+    if-nez v0, :cond_0
+
+    .line 4
+    .line 5
+    const/4 v0, 0x0
+
+    .line 6
+    return v0
+
+    .line 7
+    :cond_0
+    invoke-virtual {v0}, Lcom/google/protobuf/YaFUk$AcECZ05b;->ud6sfq6F()Z
+
+    .line 8
+    .line 9
+    .line 10
+    move-result v0
+
+    .line 11
+    return v0
+.end method
+
+.method public static ln2scR()Ljava/lang/reflect/Field;
+    .locals 3
+
+    .line 1
+    invoke-static {}, Lcom/google/protobuf/Z83SrZ;->uc8gdK2()Z
+
+    .line 2
+    .line 3
+    .line 4
+    move-result v0
+
+    .line 5
+    const-class v1, Ljava/nio/Buffer;
+
+    .line 6
+    .line 7
+    if-eqz v0, :cond_0
+
+    .line 8
+    .line 9
+    const-string v0, "effectiveDirectAddress"
+
+    .line 10
+    .line 11
+    invoke-static {v1, v0}, Lcom/google/protobuf/YaFUk;->zwQrHWCn(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/reflect/Field;
+
+    .line 12
+    .line 13
+    .line 14
+    move-result-object v0
+
+    .line 15
+    if-eqz v0, :cond_0
+
+    .line 16
+    .line 17
+    return-object v0
+
+    .line 18
+    :cond_0
+    const-string v0, "address"
+
+    .line 19
+    .line 20
+    invoke-static {v1, v0}, Lcom/google/protobuf/YaFUk;->zwQrHWCn(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/reflect/Field;
+
+    .line 21
+    .line 22
+    .line 23
+    move-result-object v0
+
+    .line 24
+    if-eqz v0, :cond_1
+
+    .line 25
+    .line 26
+    invoke-virtual {v0}, Ljava/lang/reflect/Field;->getType()Ljava/lang/Class;
+
+    .line 27
+    .line 28
+    .line 29
+    move-result-object v1
+
+    .line 30
+    sget-object v2, Ljava/lang/Long;->TYPE:Ljava/lang/Class;
+
+    .line 31
+    .line 32
+    if-ne v1, v2, :cond_1
+
+    .line 33
+    .line 34
+    return-object v0
+
+    .line 35
+    :cond_1
+    const/4 v0, 0x0
+
+    .line 36
+    return-object v0
+.end method
+
+.method public static lpJ5LQ1(Ljava/lang/Object;JZ)V
+    .locals 0
+
+    .line 1
+    int-to-byte p3, p3
+
+    .line 2
+    invoke-static {p0, p1, p2, p3}, Lcom/google/protobuf/YaFUk;->qkSN9OY(Ljava/lang/Object;JB)V
+
+    .line 3
+    .line 4
+    .line 5
+    return-void
+.end method
+
+.method public static mMx9OfQQ(Ljava/lang/Object;J)Z
+    .locals 0
+
+    .line 1
+    invoke-static {p0, p1, p2}, Lcom/google/protobuf/YaFUk;->qnUr9GP(Ljava/lang/Object;J)B
+
+    .line 2
+    .line 3
+    .line 4
+    move-result p0
+
+    .line 5
+    if-eqz p0, :cond_0
+
+    .line 6
+    .line 7
+    const/4 p0, 0x1
+
+    .line 8
+    return p0
+
+    .line 9
+    :cond_0
+    const/4 p0, 0x0
+
+    .line 10
+    return p0
+.end method
+
+.method public static nfDQQZPs(Ljava/lang/Object;J)F
+    .locals 1
+
+    .line 1
+    sget-object v0, Lcom/google/protobuf/YaFUk;->qSabaQa:Lcom/google/protobuf/YaFUk$AcECZ05b;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0, p0, p1, p2}, Lcom/google/protobuf/YaFUk$AcECZ05b;->bTCCo(Ljava/lang/Object;J)F
+
+    .line 4
+    .line 5
+    .line 6
+    move-result p0
+
+    .line 7
+    return p0
+.end method
+
+.method public static njSp8hl(Ljava/lang/Throwable;)V
+    .locals 4
+
+    .line 1
+    const-class v0, Lcom/google/protobuf/YaFUk;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object v0
+
+    .line 7
+    invoke-static {v0}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+
+    .line 8
+    .line 9
+    .line 10
+    move-result-object v0
+
+    .line 11
+    sget-object v1, Ljava/util/logging/Level;->WARNING:Ljava/util/logging/Level;
+
+    .line 12
+    .line 13
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    .line 14
+    .line 15
+    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+
+    .line 16
+    .line 17
+    .line 18
+    const-string v3, "platform method missing - proto runtime falling back to safer methods: "
+
+    .line 19
+    .line 20
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 21
+    .line 22
+    .line 23
+    invoke-virtual {v2, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 24
+    .line 25
+    .line 26
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 27
+    .line 28
+    .line 29
+    move-result-object p0
+
+    .line 30
+    invoke-virtual {v0, v1, p0}, Ljava/util/logging/Logger;->log(Ljava/util/logging/Level;Ljava/lang/String;)V
+
+    .line 31
+    .line 32
+    .line 33
+    return-void
+.end method
+
+.method public static p6oZV50(Ljava/lang/Object;JD)V
+    .locals 6
+
+    .line 1
+    sget-object v0, Lcom/google/protobuf/YaFUk;->qSabaQa:Lcom/google/protobuf/YaFUk$AcECZ05b;
+
+    .line 2
+    .line 3
+    move-object v1, p0
+
+    .line 4
+    move-wide v2, p1
+
+    .line 5
+    move-wide v4, p3
+
+    .line 6
+    invoke-virtual/range {v0 .. v5}, Lcom/google/protobuf/YaFUk$AcECZ05b;->wrDYHx1(Ljava/lang/Object;JD)V
+
+    .line 7
+    .line 8
+    .line 9
+    return-void
+.end method
+
+.method public static synthetic qDuDu6n(Ljava/lang/Object;JZ)V
+    .locals 0
+
+    .line 1
+    invoke-static {p0, p1, p2, p3}, Lcom/google/protobuf/YaFUk;->ije782cf(Ljava/lang/Object;JZ)V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+.method public static qKuO8(Ljava/lang/Class;)Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    :try_start_0
+    sget-object v0, Lcom/google/protobuf/YaFUk;->gSRAvs0:Lsun/misc/Unsafe;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0, p0}, Lsun/misc/Unsafe;->allocateInstance(Ljava/lang/Class;)Ljava/lang/Object;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object p0
+    :try_end_0
+    .catch Ljava/lang/InstantiationException; {:try_start_0 .. :try_end_0} :catch_0
+
+    .line 7
+    return-object p0
+
+    .line 8
+    :catch_0
+    move-exception p0
+
+    .line 9
+    new-instance v0, Ljava/lang/IllegalStateException;
+
+    .line 10
+    .line 11
+    invoke-direct {v0, p0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/Throwable;)V
+
+    .line 12
+    .line 13
+    .line 14
+    throw v0
+.end method
+
+.method public static synthetic qSabaQa(Ljava/lang/Object;JB)V
+    .locals 0
+
+    .line 1
+    invoke-static {p0, p1, p2, p3}, Lcom/google/protobuf/YaFUk;->qkSN9OY(Ljava/lang/Object;JB)V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+.method public static qkSN9OY(Ljava/lang/Object;JB)V
+    .locals 4
+
+    .line 1
+    const-wide/16 v0, -0x4
+
+    .line 2
+    .line 3
+    and-long/2addr v0, p1
+
+    .line 4
+    invoke-static {p0, v0, v1}, Lcom/google/protobuf/YaFUk;->gXiFk(Ljava/lang/Object;J)I
+
+    .line 5
+    .line 6
+    .line 7
+    move-result v2
+
+    .line 8
+    long-to-int p1, p1
+
+    .line 9
+    not-int p1, p1
+
+    .line 10
+    and-int/lit8 p1, p1, 0x3
+
+    .line 11
+    .line 12
+    shl-int/lit8 p1, p1, 0x3
+
+    .line 13
+    .line 14
+    const/16 p2, 0xff
+
+    .line 15
+    .line 16
+    shl-int v3, p2, p1
+
+    .line 17
+    .line 18
+    not-int v3, v3
+
+    .line 19
+    and-int/2addr v2, v3
+
+    .line 20
+    and-int/2addr p2, p3
+
+    .line 21
+    shl-int p1, p2, p1
+
+    .line 22
+    .line 23
+    or-int/2addr p1, v2
+
+    .line 24
+    invoke-static {p0, v0, v1, p1}, Lcom/google/protobuf/YaFUk;->twBNAum(Ljava/lang/Object;JI)V
+
+    .line 25
+    .line 26
+    .line 27
+    return-void
+.end method
+
+.method public static qnUr9GP(Ljava/lang/Object;J)B
+    .locals 2
+
+    .line 1
+    const-wide/16 v0, -0x4
+
+    .line 2
+    .line 3
+    and-long/2addr v0, p1
+
+    .line 4
+    invoke-static {p0, v0, v1}, Lcom/google/protobuf/YaFUk;->gXiFk(Ljava/lang/Object;J)I
+
+    .line 5
+    .line 6
+    .line 7
+    move-result p0
+
+    .line 8
+    const-wide/16 v0, 0x3
+
+    .line 9
+    .line 10
+    and-long/2addr p1, v0
+
+    .line 11
+    const/4 v0, 0x3
+
+    .line 12
+    shl-long/2addr p1, v0
+
+    .line 13
+    long-to-int p1, p1
+
+    .line 14
+    ushr-int/2addr p0, p1
+
+    .line 15
+    and-int/lit16 p0, p0, 0xff
+
+    .line 16
+    .line 17
+    int-to-byte p0, p0
+
+    .line 18
+    return p0
+.end method
+
+.method public static r3FX5ekZ(Ljava/lang/Object;J)J
+    .locals 1
+
+    .line 1
+    sget-object v0, Lcom/google/protobuf/YaFUk;->qSabaQa:Lcom/google/protobuf/YaFUk$AcECZ05b;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0, p0, p1, p2}, Lcom/google/protobuf/YaFUk$AcECZ05b;->w4CLNk(Ljava/lang/Object;J)J
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-wide p0
+
+    .line 7
+    return-wide p0
+.end method
+
+.method public static synthetic rF6rhE(Ljava/lang/Object;J)Z
+    .locals 0
+
+    .line 1
+    invoke-static {p0, p1, p2}, Lcom/google/protobuf/YaFUk;->zqsmf4(Ljava/lang/Object;J)Z
+
+    .line 2
+    .line 3
+    .line 4
+    move-result p0
+
+    .line 5
+    return p0
+.end method
+
+.method public static sGqqN9f()Z
+    .locals 1
+
+    .line 1
+    sget-object v0, Lcom/google/protobuf/YaFUk;->qSabaQa:Lcom/google/protobuf/YaFUk$AcECZ05b;
+
+    .line 2
+    .line 3
+    if-nez v0, :cond_0
+
+    .line 4
+    .line 5
+    const/4 v0, 0x0
+
+    .line 6
+    return v0
+
+    .line 7
+    :cond_0
+    invoke-virtual {v0}, Lcom/google/protobuf/YaFUk$AcECZ05b;->zqsmf4()Z
+
+    .line 8
+    .line 9
+    .line 10
+    move-result v0
+
+    .line 11
+    return v0
+.end method
+
+.method public static tugTe(Ljava/lang/Class;)I
+    .locals 1
+
+    .line 1
+    sget-boolean v0, Lcom/google/protobuf/YaFUk;->rF6rhE:Z
+
+    .line 2
+    .line 3
+    if-eqz v0, :cond_0
+
+    .line 4
+    .line 5
+    sget-object v0, Lcom/google/protobuf/YaFUk;->qSabaQa:Lcom/google/protobuf/YaFUk$AcECZ05b;
+
+    .line 6
+    .line 7
+    invoke-virtual {v0, p0}, Lcom/google/protobuf/YaFUk$AcECZ05b;->gSRAvs0(Ljava/lang/Class;)I
+
+    .line 8
+    .line 9
+    .line 10
+    move-result p0
+
+    .line 11
+    return p0
+
+    .line 12
+    :cond_0
+    const/4 p0, -0x1
+
+    .line 13
+    return p0
+.end method
+
+.method public static twBNAum(Ljava/lang/Object;JI)V
+    .locals 1
+
+    .line 1
+    sget-object v0, Lcom/google/protobuf/YaFUk;->qSabaQa:Lcom/google/protobuf/YaFUk$AcECZ05b;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0, p0, p1, p2, p3}, Lcom/google/protobuf/YaFUk$AcECZ05b;->yJI6Im(Ljava/lang/Object;JI)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+.method public static synthetic uc8gdK2(Ljava/lang/Object;J)B
+    .locals 0
+
+    .line 1
+    invoke-static {p0, p1, p2}, Lcom/google/protobuf/YaFUk;->fQb4dm20(Ljava/lang/Object;J)B
+
+    .line 2
+    .line 3
+    .line 4
+    move-result p0
+
+    .line 5
+    return p0
+.end method
+
+.method public static ud6sfq6F(Ljava/lang/Object;J)Z
+    .locals 1
+
+    .line 1
+    sget-object v0, Lcom/google/protobuf/YaFUk;->qSabaQa:Lcom/google/protobuf/YaFUk$AcECZ05b;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0, p0, p1, p2}, Lcom/google/protobuf/YaFUk$AcECZ05b;->uc8gdK2(Ljava/lang/Object;J)Z
+
+    .line 4
+    .line 5
+    .line 6
+    move-result p0
+
+    .line 7
+    return p0
+.end method
+
+.method public static uqhdq(Ljava/lang/Object;J)Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    sget-object v0, Lcom/google/protobuf/YaFUk;->qSabaQa:Lcom/google/protobuf/YaFUk$AcECZ05b;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0, p0, p1, p2}, Lcom/google/protobuf/YaFUk$AcECZ05b;->j0fws(Ljava/lang/Object;J)Ljava/lang/Object;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object p0
+
+    .line 7
+    return-object p0
+.end method
+
+.method public static veush([BJ)B
+    .locals 3
+
+    .line 1
+    sget-object v0, Lcom/google/protobuf/YaFUk;->qSabaQa:Lcom/google/protobuf/YaFUk$AcECZ05b;
+
+    .line 2
+    .line 3
+    sget-wide v1, Lcom/google/protobuf/YaFUk;->w4CLNk:J
+
+    .line 4
+    .line 5
+    add-long/2addr v1, p1
+
+    .line 6
+    invoke-virtual {v0, p0, v1, v2}, Lcom/google/protobuf/YaFUk$AcECZ05b;->jEii0y(Ljava/lang/Object;J)B
+
+    .line 7
+    .line 8
+    .line 9
+    move-result p0
+
+    .line 10
+    return p0
+.end method
+
+.method public static vwrie(Ljava/lang/Object;JJ)V
+    .locals 6
+
+    .line 1
+    sget-object v0, Lcom/google/protobuf/YaFUk;->qSabaQa:Lcom/google/protobuf/YaFUk$AcECZ05b;
+
+    .line 2
+    .line 3
+    move-object v1, p0
+
+    .line 4
+    move-wide v2, p1
+
+    .line 5
+    move-wide v4, p3
+
+    .line 6
+    invoke-virtual/range {v0 .. v5}, Lcom/google/protobuf/YaFUk$AcECZ05b;->zwQrHWCn(Ljava/lang/Object;JJ)V
+
+    .line 7
+    .line 8
+    .line 9
+    return-void
+.end method
+
+.method public static synthetic w4CLNk(Ljava/lang/Object;J)Z
+    .locals 0
+
+    .line 1
+    invoke-static {p0, p1, p2}, Lcom/google/protobuf/YaFUk;->mMx9OfQQ(Ljava/lang/Object;J)Z
+
+    .line 2
+    .line 3
+    .line 4
+    move-result p0
+
+    .line 5
+    return p0
+.end method
+
+.method public static wrDYHx1(Ljava/lang/Class;)I
+    .locals 1
+
+    .line 1
+    sget-boolean v0, Lcom/google/protobuf/YaFUk;->rF6rhE:Z
+
+    .line 2
+    .line 3
+    if-eqz v0, :cond_0
+
+    .line 4
+    .line 5
+    sget-object v0, Lcom/google/protobuf/YaFUk;->qSabaQa:Lcom/google/protobuf/YaFUk$AcECZ05b;
+
+    .line 6
+    .line 7
+    invoke-virtual {v0, p0}, Lcom/google/protobuf/YaFUk$AcECZ05b;->lE4XuO6(Ljava/lang/Class;)I
+
+    .line 8
+    .line 9
+    .line 10
+    move-result p0
+
+    .line 11
+    return p0
+
+    .line 12
+    :cond_0
+    const/4 p0, -0x1
+
+    .line 13
+    return p0
+.end method
+
+.method public static wuyGmLIm(Ljava/lang/reflect/Field;)J
+    .locals 2
+
+    .line 1
+    if-eqz p0, :cond_1
+
+    .line 2
+    .line 3
+    sget-object v0, Lcom/google/protobuf/YaFUk;->qSabaQa:Lcom/google/protobuf/YaFUk$AcECZ05b;
+
+    .line 4
+    .line 5
+    if-nez v0, :cond_0
+
+    .line 6
+    .line 7
+    goto :goto_0
+
+    .line 8
+    :cond_0
+    invoke-virtual {v0, p0}, Lcom/google/protobuf/YaFUk$AcECZ05b;->qDuDu6n(Ljava/lang/reflect/Field;)J
+
+    .line 9
+    .line 10
+    .line 11
+    move-result-wide v0
+
+    .line 12
+    return-wide v0
+
+    .line 13
+    :cond_1
+    :goto_0
+    const-wide/16 v0, -0x1
+
+    .line 14
+    .line 15
+    return-wide v0
+.end method
+
+.method public static yJI6Im(Ljava/lang/Class;)Z
+    .locals 7
+
+    .line 1
+    const-class v0, [B
+
+    .line 2
+    .line 3
+    invoke-static {}, Lcom/google/protobuf/Z83SrZ;->uc8gdK2()Z
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v1
+
+    .line 7
+    const/4 v2, 0x0
+
+    .line 8
+    if-nez v1, :cond_0
+
+    .line 9
+    .line 10
+    return v2
+
+    .line 11
+    :cond_0
+    :try_start_0
+    sget-object v1, Lcom/google/protobuf/YaFUk;->lE4XuO6:Ljava/lang/Class;
+
+    .line 12
+    .line 13
+    const-string v3, "peekLong"
+
+    .line 14
+    .line 15
+    sget-object v4, Ljava/lang/Boolean;->TYPE:Ljava/lang/Class;
+
+    .line 16
+    .line 17
+    filled-new-array {p0, v4}, [Ljava/lang/Class;
+
+    .line 18
+    .line 19
+    .line 20
+    move-result-object v5
+
+    .line 21
+    invoke-virtual {v1, v3, v5}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+
+    .line 22
+    .line 23
+    .line 24
+    const-string v3, "pokeLong"
+
+    .line 25
+    .line 26
+    sget-object v5, Ljava/lang/Long;->TYPE:Ljava/lang/Class;
+
+    .line 27
+    .line 28
+    filled-new-array {p0, v5, v4}, [Ljava/lang/Class;
+
+    .line 29
+    .line 30
+    .line 31
+    move-result-object v5
+
+    .line 32
+    invoke-virtual {v1, v3, v5}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+
+    .line 33
+    .line 34
+    .line 35
+    const-string v3, "pokeInt"
+
+    .line 36
+    .line 37
+    sget-object v5, Ljava/lang/Integer;->TYPE:Ljava/lang/Class;
+
+    .line 38
+    .line 39
+    filled-new-array {p0, v5, v4}, [Ljava/lang/Class;
+
+    .line 40
+    .line 41
+    .line 42
+    move-result-object v6
+
+    .line 43
+    invoke-virtual {v1, v3, v6}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+
+    .line 44
+    .line 45
+    .line 46
+    const-string v3, "peekInt"
+
+    .line 47
+    .line 48
+    filled-new-array {p0, v4}, [Ljava/lang/Class;
+
+    .line 49
+    .line 50
+    .line 51
+    move-result-object v4
+
+    .line 52
+    invoke-virtual {v1, v3, v4}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+
+    .line 53
+    .line 54
+    .line 55
+    const-string v3, "pokeByte"
+
+    .line 56
+    .line 57
+    sget-object v4, Ljava/lang/Byte;->TYPE:Ljava/lang/Class;
+
+    .line 58
+    .line 59
+    filled-new-array {p0, v4}, [Ljava/lang/Class;
+
+    .line 60
+    .line 61
+    .line 62
+    move-result-object v4
+
+    .line 63
+    invoke-virtual {v1, v3, v4}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+
+    .line 64
+    .line 65
+    .line 66
+    const-string v3, "peekByte"
+
+    .line 67
+    .line 68
+    filled-new-array {p0}, [Ljava/lang/Class;
+
+    .line 69
+    .line 70
+    .line 71
+    move-result-object v4
+
+    .line 72
+    invoke-virtual {v1, v3, v4}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+
+    .line 73
+    .line 74
+    .line 75
+    const-string v3, "pokeByteArray"
+
+    .line 76
+    .line 77
+    filled-new-array {p0, v0, v5, v5}, [Ljava/lang/Class;
+
+    .line 78
+    .line 79
+    .line 80
+    move-result-object v4
+
+    .line 81
+    invoke-virtual {v1, v3, v4}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+
+    .line 82
+    .line 83
+    .line 84
+    const-string v3, "peekByteArray"
+
+    .line 85
+    .line 86
+    filled-new-array {p0, v0, v5, v5}, [Ljava/lang/Class;
+
+    .line 87
+    .line 88
+    .line 89
+    move-result-object p0
+
+    .line 90
+    invoke-virtual {v1, v3, p0}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 91
+    .line 92
+    .line 93
+    const/4 p0, 0x1
+
+    .line 94
+    return p0
+
+    .line 95
+    :catchall_0
+    return v2
+.end method
+
+.method public static zqsmf4(Ljava/lang/Object;J)Z
+    .locals 0
+
+    .line 1
+    invoke-static {p0, p1, p2}, Lcom/google/protobuf/YaFUk;->fQb4dm20(Ljava/lang/Object;J)B
+
+    .line 2
+    .line 3
+    .line 4
+    move-result p0
+
+    .line 5
+    if-eqz p0, :cond_0
+
+    .line 6
+    .line 7
+    const/4 p0, 0x1
+
+    .line 8
+    return p0
+
+    .line 9
+    :cond_0
+    const/4 p0, 0x0
+
+    .line 10
+    return p0
+.end method
+
+.method public static zsmLMcsY(Ljava/lang/Object;JZ)V
+    .locals 1
+
+    .line 1
+    sget-object v0, Lcom/google/protobuf/YaFUk;->qSabaQa:Lcom/google/protobuf/YaFUk$AcECZ05b;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0, p0, p1, p2, p3}, Lcom/google/protobuf/YaFUk$AcECZ05b;->qKuO8(Ljava/lang/Object;JZ)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+.method public static zwQrHWCn(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/reflect/Field;
+    .locals 0
+
+    .line 1
+    :try_start_0
+    invoke-virtual {p0, p1}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 5
+    return-object p0
+
+    .line 6
+    :catchall_0
+    const/4 p0, 0x0
+
+    .line 7
+    return-object p0
+.end method

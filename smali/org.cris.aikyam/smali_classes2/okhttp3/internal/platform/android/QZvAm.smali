@@ -1,0 +1,20 @@
+.class public abstract synthetic Lokhttp3/internal/platform/android/QZvAm;
+.super Ljava/lang/Object;
+.source "Obfuscated"
+
+
+# direct methods
+.method public static bridge synthetic gSRAvs0(Ljavax/net/ssl/SSLSocket;)Z
+    .locals 0
+
+    .line 1
+    invoke-static {p0}, Landroid/net/ssl/SSLSockets;->isSupportedSocket(Ljavax/net/ssl/SSLSocket;)Z
+
+    .line 2
+    .line 3
+    .line 4
+    move-result p0
+
+    .line 5
+    return p0
+.end method

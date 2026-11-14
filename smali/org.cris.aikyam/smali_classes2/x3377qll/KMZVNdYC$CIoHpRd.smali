@@ -1,0 +1,19 @@
+.class public interface abstract Lx3377qll/KMZVNdYC$CIoHpRd;
+.super Ljava/lang/Object;
+.source "Obfuscated"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lx3377qll/KMZVNdYC;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "CIoHpRd"
+.end annotation
+
+
+# virtual methods
+.method public abstract gSRAvs0(Landroid/util/JsonReader;)Ljava/lang/Object;
+.end method

@@ -1,0 +1,50 @@
+.class public final synthetic Lv9q8prk/XWkj6C;
+.super Ljava/lang/Object;
+.source "Obfuscated"
+
+# interfaces
+.implements Lxuz2up/NaOCN;
+
+
+# instance fields
+.field public final synthetic gSRAvs0:Lcom/google/firebase/messaging/FirebaseMessaging;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/google/firebase/messaging/FirebaseMessaging;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lv9q8prk/XWkj6C;->gSRAvs0:Lcom/google/firebase/messaging/FirebaseMessaging;
+
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public final gSRAvs0(Ljava/lang/Object;)V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lv9q8prk/XWkj6C;->gSRAvs0:Lcom/google/firebase/messaging/FirebaseMessaging;
+
+    .line 2
+    .line 3
+    check-cast p1, Lv9q8prk/FtrmAxl;
+
+    .line 4
+    .line 5
+    invoke-static {v0, p1}, Lcom/google/firebase/messaging/FirebaseMessaging;->jEii0y(Lcom/google/firebase/messaging/FirebaseMessaging;Lv9q8prk/FtrmAxl;)V
+
+    .line 6
+    .line 7
+    .line 8
+    return-void
+.end method

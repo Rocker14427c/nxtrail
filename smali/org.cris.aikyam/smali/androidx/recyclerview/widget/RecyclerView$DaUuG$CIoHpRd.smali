@@ -1,0 +1,189 @@
+.class public Landroidx/recyclerview/widget/RecyclerView$DaUuG$CIoHpRd;
+.super Ljava/lang/Object;
+.source "Obfuscated"
+
+# interfaces
+.implements Landroidx/recyclerview/widget/Tw3YL$QZvAm;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Landroidx/recyclerview/widget/RecyclerView$DaUuG;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# instance fields
+.field public final synthetic gSRAvs0:Landroidx/recyclerview/widget/RecyclerView$DaUuG;
+
+
+# direct methods
+.method public constructor <init>(Landroidx/recyclerview/widget/RecyclerView$DaUuG;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$DaUuG$CIoHpRd;->gSRAvs0:Landroidx/recyclerview/widget/RecyclerView$DaUuG;
+
+    .line 2
+    .line 3
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public gSRAvs0(I)Landroid/view/View;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$DaUuG$CIoHpRd;->gSRAvs0:Landroidx/recyclerview/widget/RecyclerView$DaUuG;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0, p1}, Landroidx/recyclerview/widget/RecyclerView$DaUuG;->p6oZV50(I)Landroid/view/View;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object p1
+
+    .line 7
+    return-object p1
+.end method
+
+.method public jEii0y()I
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$DaUuG$CIoHpRd;->gSRAvs0:Landroidx/recyclerview/widget/RecyclerView$DaUuG;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$DaUuG;->bVulkjW()I
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v0
+
+    .line 7
+    iget-object v1, p0, Landroidx/recyclerview/widget/RecyclerView$DaUuG$CIoHpRd;->gSRAvs0:Landroidx/recyclerview/widget/RecyclerView$DaUuG;
+
+    .line 8
+    .line 9
+    invoke-virtual {v1}, Landroidx/recyclerview/widget/RecyclerView$DaUuG;->sTLlIj()I
+
+    .line 10
+    .line 11
+    .line 12
+    move-result v1
+
+    .line 13
+    sub-int/2addr v0, v1
+
+    .line 14
+    return v0
+.end method
+
+.method public lE4XuO6(Landroid/view/View;)I
+    .locals 2
+
+    .line 1
+    invoke-virtual {p1}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    check-cast v0, Landroidx/recyclerview/widget/RecyclerView$ZwaePLeV;
+
+    .line 6
+    .line 7
+    iget-object v1, p0, Landroidx/recyclerview/widget/RecyclerView$DaUuG$CIoHpRd;->gSRAvs0:Landroidx/recyclerview/widget/RecyclerView$DaUuG;
+
+    .line 8
+    .line 9
+    invoke-virtual {v1, p1}, Landroidx/recyclerview/widget/RecyclerView$DaUuG;->i01rSwx5(Landroid/view/View;)I
+
+    .line 10
+    .line 11
+    .line 12
+    move-result p1
+
+    .line 13
+    iget v0, v0, Landroid/view/ViewGroup$MarginLayoutParams;->leftMargin:I
+
+    .line 14
+    .line 15
+    sub-int/2addr p1, v0
+
+    .line 16
+    return p1
+.end method
+
+.method public qSabaQa(Landroid/view/View;)I
+    .locals 2
+
+    .line 1
+    invoke-virtual {p1}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    check-cast v0, Landroidx/recyclerview/widget/RecyclerView$ZwaePLeV;
+
+    .line 6
+    .line 7
+    iget-object v1, p0, Landroidx/recyclerview/widget/RecyclerView$DaUuG$CIoHpRd;->gSRAvs0:Landroidx/recyclerview/widget/RecyclerView$DaUuG;
+
+    .line 8
+    .line 9
+    invoke-virtual {v1, p1}, Landroidx/recyclerview/widget/RecyclerView$DaUuG;->vIMq5tL(Landroid/view/View;)I
+
+    .line 10
+    .line 11
+    .line 12
+    move-result p1
+
+    .line 13
+    iget v0, v0, Landroid/view/ViewGroup$MarginLayoutParams;->rightMargin:I
+
+    .line 14
+    .line 15
+    add-int/2addr p1, v0
+
+    .line 16
+    return p1
+.end method
+
+.method public uc8gdK2()I
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$DaUuG$CIoHpRd;->gSRAvs0:Landroidx/recyclerview/widget/RecyclerView$DaUuG;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$DaUuG;->rBmLV()I
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v0
+
+    .line 7
+    return v0
+.end method

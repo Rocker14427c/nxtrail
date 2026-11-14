@@ -1,0 +1,22 @@
+.class public interface abstract Lk0/DJmRVE$QZvAm;
+.super Ljava/lang/Object;
+.source "Obfuscated"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lk0/DJmRVE;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "QZvAm"
+.end annotation
+
+
+# virtual methods
+.method public abstract error(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V
+.end method
+
+.method public abstract success(Ljava/lang/Object;)V
+.end method

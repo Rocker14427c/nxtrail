@@ -1,0 +1,51 @@
+name: build-nxtrail-apk
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Verify custom ticket assets and hook exist
+        run: |
+          test -f smali/org.cris.aikyam/assets/custom_tickets/form.html
+          test -f smali/org.cris.aikyam/assets/custom_tickets/detail.html
+          test -f smali/org.cris.aikyam/assets/custom_tickets/qrcode.min.js
+          grep -q 'CustomTicketFab;->attach' smali/org.cris.aikyam/smali/com/example/aikyam/MainActivity.smali
+
+      - name: Set up Java 21
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+
+      - name: Install Android build tools
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq aapt zipalign apksigner unzip binutils
+
+      - name: Bootstrap pinned APKTool
+        run: ./scripts/bootstrap.sh
+
+      - name: Build APK from smali
+        run: ./scripts/build.sh
+
+      - name: Sign APK
+        run: ./scripts/sign.sh
+
+      - name: Verify APK
+        run: ./scripts/verify.sh
+
+      - name: Upload single installable APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: nxtrail-apk
+          path: |
+            build/nxtrail-*.apk
+            build/nxtrail-*.apk.sha256
+          if-no-files-found: error

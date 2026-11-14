@@ -1,0 +1,119 @@
+.class public final Ltvu48/CIoHpRd$NaOCN;
+.super Ljava/lang/Object;
+.source "Obfuscated"
+
+# interfaces
+.implements Lkfd4kie/AcECZ05b;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Ltvu48/CIoHpRd;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "NaOCN"
+.end annotation
+
+
+# static fields
+.field public static final gSRAvs0:Ltvu48/CIoHpRd$NaOCN;
+
+.field public static final lE4XuO6:Lkfd4kie/Z83SrZ;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 1
+    new-instance v0, Ltvu48/CIoHpRd$NaOCN;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, Ltvu48/CIoHpRd$NaOCN;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    sput-object v0, Ltvu48/CIoHpRd$NaOCN;->gSRAvs0:Ltvu48/CIoHpRd$NaOCN;
+
+    .line 7
+    .line 8
+    const-string v0, "trigger"
+
+    .line 9
+    .line 10
+    invoke-static {v0}, Lkfd4kie/Z83SrZ;->jEii0y(Ljava/lang/String;)Lkfd4kie/Z83SrZ;
+
+    .line 11
+    .line 12
+    .line 13
+    move-result-object v0
+
+    .line 14
+    sput-object v0, Ltvu48/CIoHpRd$NaOCN;->lE4XuO6:Lkfd4kie/Z83SrZ;
+
+    .line 15
+    .line 16
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+
+# virtual methods
+.method public bridge synthetic gSRAvs0(Ljava/lang/Object;Ljava/lang/Object;)V
+    .locals 0
+
+    .line 1
+    check-cast p1, Ltvu48/NRp3c$AcECZ05b$QZvAm;
+
+    .line 2
+    .line 3
+    check-cast p2, Lkfd4kie/ACzlY;
+
+    .line 4
+    .line 5
+    invoke-virtual {p0, p1, p2}, Ltvu48/CIoHpRd$NaOCN;->lE4XuO6(Ltvu48/NRp3c$AcECZ05b$QZvAm;Lkfd4kie/ACzlY;)V
+
+    .line 6
+    .line 7
+    .line 8
+    return-void
+.end method
+
+.method public lE4XuO6(Ltvu48/NRp3c$AcECZ05b$QZvAm;Lkfd4kie/ACzlY;)V
+    .locals 1
+
+    .line 1
+    sget-object v0, Ltvu48/CIoHpRd$NaOCN;->lE4XuO6:Lkfd4kie/Z83SrZ;
+
+    .line 2
+    .line 3
+    invoke-virtual {p1}, Ltvu48/NRp3c$AcECZ05b$QZvAm;->lE4XuO6()I
+
+    .line 4
+    .line 5
+    .line 6
+    move-result p1
+
+    .line 7
+    invoke-interface {p2, v0, p1}, Lkfd4kie/ACzlY;->jEii0y(Lkfd4kie/Z83SrZ;I)Lkfd4kie/ACzlY;
+
+    .line 8
+    .line 9
+    .line 10
+    return-void
+.end method

@@ -1,0 +1,12 @@
+# Generated outputs and downloaded tools (re-created by scripts/bootstrap.sh and scripts/build.sh)
+build/
+tools/
+*.apk
+*.apks
+*.xapk
+*.idsig
+!signing/debug.keystore
+
+# Local scratch
+*.tmp
+.DS_Store

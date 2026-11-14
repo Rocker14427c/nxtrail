@@ -1,0 +1,49 @@
+.class public final Lj3paipv/PjOkxR;
+.super Lj3paipv/VixW9;
+.source "Obfuscated"
+
+
+# instance fields
+.field public final synthetic bojF856b:Lj3paipv/IBYxuLG;
+
+
+# direct methods
+.method public constructor <init>(Lj3paipv/IBYxuLG;)V
+    .locals 1
+
+    .line 1
+    iput-object p1, p0, Lj3paipv/PjOkxR;->bojF856b:Lj3paipv/IBYxuLG;
+
+    .line 2
+    .line 3
+    const/4 v0, 0x0
+
+    .line 4
+    invoke-direct {p0, p1, v0}, Lj3paipv/VixW9;-><init>(Lj3paipv/IBYxuLG;Lj3paipv/Hp1qq;)V
+
+    .line 5
+    .line 6
+    .line 7
+    return-void
+.end method
+
+
+# virtual methods
+.method public final gSRAvs0(I)Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lj3paipv/PjOkxR;->bojF856b:Lj3paipv/IBYxuLG;
+
+    .line 2
+    .line 3
+    invoke-static {v0, p1}, Lj3paipv/IBYxuLG;->tugTe(Lj3paipv/IBYxuLG;I)Ljava/lang/Object;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object p1
+
+    .line 7
+    return-object p1
+.end method

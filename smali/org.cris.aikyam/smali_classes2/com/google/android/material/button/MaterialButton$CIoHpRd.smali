@@ -1,0 +1,19 @@
+.class public interface abstract Lcom/google/android/material/button/MaterialButton$CIoHpRd;
+.super Ljava/lang/Object;
+.source "Obfuscated"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/android/material/button/MaterialButton;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "CIoHpRd"
+.end annotation
+
+
+# virtual methods
+.method public abstract gSRAvs0(Lcom/google/android/material/button/MaterialButton;Z)V
+.end method

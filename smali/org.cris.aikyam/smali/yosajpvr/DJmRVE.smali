@@ -1,0 +1,343 @@
+.class public abstract Lyosajpvr/DJmRVE;
+.super Ljava/lang/Object;
+
+
+# static fields
+.field public static gSRAvs0:[C
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 0
+
+    .line 1
+    invoke-static {}, Lyosajpvr/DJmRVE;->gSRAvs0()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+.method public static gSRAvs0()V
+    .locals 10
+
+    .line 1
+    const/16 v0, 0x3c9f
+
+    .line 2
+    .line 3
+    int-to-char v0, v0
+
+    .line 4
+    const/16 v1, 0x2f90
+
+    .line 5
+    .line 6
+    int-to-char v1, v1
+
+    .line 7
+    const/16 v2, 0x21af
+
+    .line 8
+    .line 9
+    int-to-char v2, v2
+
+    .line 10
+    const/16 v3, 0x5353
+
+    .line 11
+    .line 12
+    int-to-char v3, v3
+
+    .line 13
+    const/16 v4, 0x691f
+
+    .line 14
+    .line 15
+    int-to-char v4, v4
+
+    .line 16
+    const/16 v5, 0x5ab8
+
+    .line 17
+    .line 18
+    int-to-char v5, v5
+
+    .line 19
+    const/16 v6, 0x72b3
+
+    .line 20
+    .line 21
+    int-to-char v6, v6
+
+    .line 22
+    const/16 v7, 0x2e89
+
+    .line 23
+    .line 24
+    int-to-char v7, v7
+
+    .line 25
+    const/16 v8, 0x8
+
+    .line 26
+    .line 27
+    new-array v8, v8, [C
+
+    .line 28
+    .line 29
+    const/4 v9, 0x0
+
+    .line 30
+    aput-char v0, v8, v9
+
+    .line 31
+    .line 32
+    const/4 v0, 0x1
+
+    .line 33
+    aput-char v1, v8, v0
+
+    .line 34
+    .line 35
+    const/4 v1, 0x2
+
+    .line 36
+    aput-char v2, v8, v1
+
+    .line 37
+    .line 38
+    const/4 v1, 0x3
+
+    .line 39
+    aput-char v3, v8, v1
+
+    .line 40
+    .line 41
+    const/4 v2, 0x4
+
+    .line 42
+    aput-char v4, v8, v2
+
+    .line 43
+    .line 44
+    const/4 v2, 0x5
+
+    .line 45
+    aput-char v5, v8, v2
+
+    .line 46
+    .line 47
+    const/4 v2, 0x6
+
+    .line 48
+    aput-char v6, v8, v2
+
+    .line 49
+    .line 50
+    const/4 v2, 0x7
+
+    .line 51
+    aput-char v7, v8, v2
+
+    .line 52
+    .line 53
+    const/16 v3, 0x61
+
+    .line 54
+    .line 55
+    new-array v4, v3, [C
+
+    .line 56
+    .line 57
+    :goto_0
+    if-ge v9, v3, :cond_0
+
+    .line 58
+    .line 59
+    or-int v5, v1, v9
+
+    .line 60
+    .line 61
+    and-int v6, v1, v9
+
+    .line 62
+    .line 63
+    sub-int/2addr v5, v6
+
+    .line 64
+    add-int/2addr v1, v5
+
+    .line 65
+    add-int/lit8 v1, v1, 0x4f
+
+    .line 66
+    .line 67
+    and-int/lit8 v5, v9, 0x7
+
+    .line 68
+    .line 69
+    aget-char v5, v8, v5
+
+    .line 70
+    .line 71
+    add-int/2addr v1, v5
+
+    .line 72
+    rem-int/lit16 v1, v1, 0x100
+
+    .line 73
+    .line 74
+    int-to-char v5, v1
+
+    .line 75
+    aput-char v5, v4, v9
+
+    .line 76
+    .line 77
+    add-int/2addr v9, v0
+
+    .line 78
+    goto :goto_0
+
+    .line 79
+    :cond_0
+    sput-object v4, Lyosajpvr/DJmRVE;->gSRAvs0:[C
+
+    .line 80
+    .line 81
+    return-void
+.end method
+
+.method public static synthetic lE4XuO6(Ljava/lang/String;I)Ljava/lang/String;
+    .locals 10
+
+    .line 1
+    sget-object v0, Lyosajpvr/DJmRVE;->gSRAvs0:[C
+
+    .line 2
+    .line 3
+    invoke-virtual {p0}, Ljava/lang/String;->length()I
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v1
+
+    .line 7
+    new-array v1, v1, [C
+
+    .line 8
+    .line 9
+    invoke-virtual {p0}, Ljava/lang/String;->toCharArray()[C
+
+    .line 10
+    .line 11
+    .line 12
+    move-result-object v2
+
+    .line 13
+    const/4 v3, 0x0
+
+    .line 14
+    move v4, v3
+
+    .line 15
+    :goto_0
+    invoke-virtual {p0}, Ljava/lang/String;->length()I
+
+    .line 16
+    .line 17
+    .line 18
+    move-result v5
+
+    .line 19
+    if-ge v4, v5, :cond_0
+
+    .line 20
+    .line 21
+    aget-char v5, v2, v4
+
+    .line 22
+    .line 23
+    array-length v6, v0
+
+    .line 24
+    rem-int/2addr p1, v6
+
+    .line 25
+    aget-char v6, v0, p1
+
+    .line 26
+    .line 27
+    not-int v7, v5
+
+    .line 28
+    or-int/2addr v7, v6
+
+    .line 29
+    not-int v8, v6
+
+    .line 30
+    or-int v9, v5, v8
+
+    .line 31
+    .line 32
+    rsub-int/lit8 v9, v9, 0x0
+
+    .line 33
+    .line 34
+    add-int/2addr v7, v9
+
+    .line 35
+    or-int/2addr v5, v6
+
+    .line 36
+    not-int v5, v5
+
+    .line 37
+    mul-int/lit8 v5, v5, 0x2
+
+    .line 38
+    .line 39
+    sub-int/2addr v7, v5
+
+    .line 40
+    mul-int/lit8 v8, v8, 0x2
+
+    .line 41
+    .line 42
+    add-int/2addr v7, v8
+
+    .line 43
+    int-to-char v5, v7
+
+    .line 44
+    aput-char v5, v1, v4
+
+    .line 45
+    .line 46
+    add-int/lit8 v4, v4, 0x1
+
+    .line 47
+    .line 48
+    add-int/lit8 p1, p1, 0x1
+
+    .line 49
+    .line 50
+    goto :goto_0
+
+    .line 51
+    :cond_0
+    new-instance p0, Ljava/lang/String;
+
+    .line 52
+    .line 53
+    invoke-direct {p0, v1}, Ljava/lang/String;-><init>([C)V
+
+    .line 54
+    .line 55
+    .line 56
+    return-object p0
+.end method

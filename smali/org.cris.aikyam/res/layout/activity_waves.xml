@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/root_web_view" android:background="#01083a" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <WebView android:id="@id/webview" android:background="#01083a" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/progressBar" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:indeterminate="true" android:indeterminateTint="#d70677" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_gravity="center|bottom" android:id="@id/fab" android:visibility="gone" android:layout_width="56.0dp" android:layout_height="56.0dp" android:layout_marginBottom="48.0dp" android:contentDescription="@string/cancel" app:backgroundTint="#000000" app:srcCompat="@drawable/close_24dp" />
+</FrameLayout>
